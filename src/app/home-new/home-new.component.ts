@@ -17,7 +17,7 @@ export class HomeNewComponent implements OnInit {
     if (title == "PhD" ){
       this._router.navigate(['phd_graduates']);
     } else if (title == "MSc" ){
-      this._router.navigate(['msc_students']);
+      this._router.navigate(['msc_graduates']);
     } else if (title == "BSc" ){
 
     }
