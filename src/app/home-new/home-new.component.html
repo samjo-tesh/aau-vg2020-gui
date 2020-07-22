@@ -1,6 +1,6 @@
 <div>
     <div fxLayout="column" style="height: 100%;" 
-            fxLayoutGap="80px" 
+            fxLayoutGap="60px" 
             fxLayoutAlign="center center">
         <div fxFlex="60" 
                 fxFlex.xl="90" 
@@ -15,32 +15,68 @@
             <div fxFlex="40">&nbsp;</div>            
         </div>
         <div fxFlex>
-            <h1 style="font-size: 40px;" [ngStyle.xl]="'font-size: 60px;'" class="effect3d">
+            <h1 style="font-size: 40px;" [ngStyle.lg]="'font-size: 60px;'" [ngStyle.xl]="'font-size: 100px;'" class="effect3d">
                 {{ "AAU 2019/20 Virtual Commencement" | uppercase }}
             </h1>
         </div>
         <div fxFlex>
-            <h2 [ngStyle.xl]="'font-size: 40px;'"  class="effect3d">July 25, 2020</h2>
+            <h2 [ngStyle.lg]="'font-size: 40px;'" [ngStyle.xl]="'font-size: 60px;'"  class="effect3d">July 25, 2020</h2>
         </div>
         <div fxFlex="5" fxFlex.xl="10">
-            <div fxLayout fxLayoutGap="200px">
-                <div fxFlex fxLayoutAlign="end">
-                    <button mat-raised-button color="primary" (click)="openPages('PhD');"
-                            [ngStyle.xl]="'padding: 20px;'">
-                        <span class="btn-title" [ngStyle.xl]="'font-size: 30px;'">PhD Graduates</span>
-                    </button>
+            <div fxLayout fxLayoutGap="100px">
+                <div fxFlex fxLayoutAlign="center" fxLayout="column">
+                    <div fxFlex fxLayoutAlign="end" style="margin-right: -70px; margin-bottom: -40px;">
+                        <img src="assets/logo/grad_cap_left.png" 
+                                style="height: 100px; width: 200px; transform: rotate(30deg); z-index: 1;"
+                                [ngStyle.lg]="'height: 60px; width: 140px;'" />
+                    </div>
+                    <div fxFlex>
+                        <button mat-raised-button color="primary" (click)="openPages('PhD');"
+                                [ngStyle.lg]="'padding: 30px;'"
+                                [ngStyle.xl]="'padding: 50px;'">
+                            <span class="btn-title" 
+                                    [ngStyle.lg]="'font-size: 40px;'"
+                                    [ngStyle.xl]="'font-size: 60px;'">PhD<br/><br/> Graduates</span>
+                        </button>
+                    </div>                                        
                 </div>
                 <div fxFlex fxLayoutAlign="center">
-                    <button mat-raised-button color="primary" (click)="openPages('MSc');"
-                            [ngStyle.xl]="'padding: 20px;'">
-                        <span class="btn-title"  [ngStyle.xl]="'font-size: 30px;'">Masters Graduates</span>
-                    </button>
+                    <div fxFlex fxLayoutAlign="center" fxLayout="column">
+                        <div fxFlex fxLayoutAlign="end" style="margin-right: -70px; margin-bottom: -60px;">
+                            <img src="assets/logo/grad_cap_left.png" 
+                                    style="height: 100px; width: 200px; transform: rotate(30deg); z-index: 1;"
+                                    [ngStyle.lg]="'height: 60px; width: 140px;'" />
+                        </div>
+                        <div fxFlex>
+                            <button mat-raised-button color="primary" (click)="openPages('MSc');"
+                                    [ngStyle.lg]="'padding: 30px;'"
+                                    [ngStyle.xl]="'padding: 50px;'">
+                                <span class="btn-title" 
+                                    [ngStyle.lg]="'font-size: 40px;'" 
+                                    [ngStyle.xl]="'font-size: 60px;'">Masters<br/><br/> Graduates</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div fxFlex>
-                    <button mat-raised-button color="primary" (click)="openPages('BSc');"
-                            [ngStyle.xl]="'padding: 20px;'">
-                        <span class="btn-title"  [ngStyle.xl]="'font-size: 30px;'">First Degree Graduates</span>
-                    </button>
+                    <div fxFlex fxLayoutAlign="center">
+                        <div fxFlex fxLayoutAlign="center" fxLayout="column">
+                            <div fxFlex fxLayoutAlign="end" style="margin-right: -70px; margin-bottom: -60px;">
+                                <img src="assets/logo/grad_cap_left.png" 
+                                        style="height: 100px; width: 200px; transform: rotate(30deg); z-index: 1;"
+                                        [ngStyle.lg]="'height: 60px; width: 140px;'" />
+                            </div>
+                            <div fxFlex>
+                                <button mat-raised-button color="primary" (click)="openPages('BSc');"
+                                        [ngStyle.lg]="'padding: 30px;'"
+                                        [ngStyle.xl]="'padding: 50px;'">
+                                    <span class="btn-title"
+                                            [ngStyle.lg]="'font-size: 40px;'"
+                                            [ngStyle.xl]="'font-size: 60px;'">First Degree<br/><br/> Graduates</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
