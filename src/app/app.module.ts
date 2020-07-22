@@ -14,6 +14,7 @@ import { MscStudentsComponent } from './msc-students/msc-students.component';
 
 import { HomeNewComponent } from './home-new/home-new.component';
 import { PhdGraduatesComponent } from './phd-graduates/phd-graduates.component';
+import { MscGraduatesComponent } from './msc-graduates/msc-graduates.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PhdGraduatesComponent } from './phd-graduates/phd-graduates.component';
     MscStudentsComponent,
 
     HomeNewComponent,
-    PhdGraduatesComponent
+    PhdGraduatesComponent,
+    MscGraduatesComponent
   ],
   imports: [
     BrowserModule,
