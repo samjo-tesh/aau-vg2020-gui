@@ -52,7 +52,7 @@
             ]
         },
         {
-            "collegeName": "Addis Ababa Institute of Technology",
+            "collegeName": "COLLEGE OF HUMANITIES, LANGUAGE STUDIES AND JOURNALISM & COMMUNICATION",
             "departments": [
                 {
                     "departmentName": "Center of Local and Regional  Development Studies (RLDS)",
@@ -68,10 +68,10 @@
                         },
                         {
                             "id": 2,
-                            "program": "Doctor of Philosophy Degree in Physics",
+                            "program": "Doctor of Philosophy  in Geography & Environmental Management (Specialization in Socioeconomic Development Planning & Enviroment)",
                             "fieldOfStudy": "Field of Study 2",
                             "name": "Getnet Abie Mekonnen",
-                            "thesisTitle": "Superconductivity and Localization in Disordered Superconductors",
+                            "thesisTitle": "The influence of El Niño induced drought on the limnology of a shallow  tropical reservoir (Koka Reservoir), with emphasis on the spatio-temporal  dynamics of nutrients, cyanobacteria and cyanotoxins: Implications for   public health risk and restoration effort.",
                             "image": "assets/images/phds/getnet_abie.jpg",
                             "advisorName": "Prof. Pooran Singh"
                         }
