@@ -7,6 +7,7 @@ import { MscStudentsComponent } from 'src/app/msc-students/msc-students.componen
 
 import { HomeNewComponent } from 'src/app/home-new/home-new.component';
 import { PhdGraduatesComponent } from 'src/app/phd-graduates/phd-graduates.component';
+import { MscGraduatesComponent } from 'src/app/msc-graduates/msc-graduates.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },  
@@ -15,6 +16,7 @@ const routes: Routes = [
 
   { path: 'new', component: HomeNewComponent},
   { path: 'phd_graduates', component: PhdGraduatesComponent },
+  { path: 'msc_graduates', component: MscGraduatesComponent }
 ];
 
 @NgModule({
