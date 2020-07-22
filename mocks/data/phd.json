@@ -12,7 +12,7 @@
                             "fieldOfStudy": "Field of Study 1",
                             "name": "Muktar Jemal Kedir",
                             "thesisTitle": "Assessments of enset bacterial wilt (Xanthomonas campestris pv.usacearum) and effects of inorganic fertilizers & Brassica species as a green manure in controlling the disease in Gurage & Silte Zones, Ethiopia",
-                            "image": "../../assets/images/phds/muktar_jemal.jpg",
+                            "image": "assets/images/phds/muktar_jemal.jpg",
                             "advisorName": "Prof. Masresh Fetene"
                         },
                         {
@@ -21,7 +21,7 @@
                             "fieldOfStudy": "Field of Study 2",
                             "name": "Getnet Abie Mekonnen",
                             "thesisTitle": "Superconductivity and Localization in Disordered Superconductors",
-                            "image": "../../assets/images/phds/getnet_abie.jpg",
+                            "image": "assets/images/phds/getnet_abie.jpg",
                             "advisorName": "Prof. Pooran Singh"
                         }
                     ]
@@ -35,7 +35,7 @@
                             "fieldOfStudy": "Field of Study 3",
                             "name": "Abiy Yimer",
                             "thesisTitle": "ሀገረሰባዊ ህክምና እና ማህበረ- ኢኮኖሚያዊ ፋይዳው በአሪ ብሔረሰብ",
-                            "image": "../../assets/images/phds/abiy_yimer.jpg",
+                            "image": "assets/images/phds/abiy_yimer.jpg",
                             "advisorName": "Prof. Miruts Gidey, Dr. Alemu Kassaye"
                         },
                         {
@@ -44,7 +44,58 @@
                             "fieldOfStudy": "Field of Study 4",
                             "name": "Kebede Abebe",
                             "thesisTitle": "Thesis Title - Earth Science 2",
-                            "image": "../../assets/images/ghat_3.png",
+                            "image": "assets/images/ghat_3.png",
+                            "advisorName": "Advisor Name 4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "collegeName": "Addis Ababa Institute of Technology",
+            "departments": [
+                {
+                    "departmentName": "Center of Local and Regional  Development Studies (RLDS)",
+                    "students": [
+                        {
+                            "id": 1,
+                            "program": "Doctor of Philosophy Degree in Zoological Sciences (Ecological & Systematic Zoology)",
+                            "fieldOfStudy": "Field of Study 1",
+                            "name": "Muktar Jemal Kedir",
+                            "thesisTitle": "Assessments of enset bacterial wilt (Xanthomonas campestris pv.usacearum) and effects of inorganic fertilizers & Brassica species as a green manure in controlling the disease in Gurage & Silte Zones, Ethiopia",
+                            "image": "assets/images/phds/muktar_jemal.jpg",
+                            "advisorName": "Prof. Masresh Fetene"
+                        },
+                        {
+                            "id": 2,
+                            "program": "Doctor of Philosophy Degree in Physics",
+                            "fieldOfStudy": "Field of Study 2",
+                            "name": "Getnet Abie Mekonnen",
+                            "thesisTitle": "Superconductivity and Localization in Disordered Superconductors",
+                            "image": "assets/images/phds/getnet_abie.jpg",
+                            "advisorName": "Prof. Pooran Singh"
+                        }
+                    ]
+                },
+                {
+                    "departmentName": "Department of Earth Science",
+                    "students": [
+                        {
+                            "id": 1,
+                            "program": "Program 3",
+                            "fieldOfStudy": "Field of Study 3",
+                            "name": "Abiy Yimer",
+                            "thesisTitle": "ሀገረሰባዊ ህክምና እና ማህበረ- ኢኮኖሚያዊ ፋይዳው በአሪ ብሔረሰብ",
+                            "image": "assets/images/phds/abiy_yimer.jpg",
+                            "advisorName": "Prof. Miruts Gidey, Dr. Alemu Kassaye"
+                        },
+                        {
+                            "id": 2,
+                            "program": "Program 4",
+                            "fieldOfStudy": "Field of Study 4",
+                            "name": "Kebede Abebe",
+                            "thesisTitle": "Thesis Title - Earth Science 2",
+                            "image": "assets/images/ghat_3.png",
                             "advisorName": "Advisor Name 4"
                         }
                     ]
