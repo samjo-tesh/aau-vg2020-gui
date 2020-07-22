@@ -1,11 +1,9 @@
 h1 {
-    /* color: #D4C06A; */
     color: #005daa;
     font-weight: bold; 
 }
 
 h2 {
-    /* color: rgb(251, 216, 132); */
     color: #005daa;
     font-style: italic;
 }
@@ -16,120 +14,6 @@ h2 {
                 0 1px 3px 0 rgba(0,0,0,1);
 }
 
-.leftdiv {
-    /* width:720px; */
-    /* height:738px; */
-    /* margin:50px 150px 100px 150px; */
-    text-align: center; 
-    vertical-align: center;
-    border: 2px solid blue;
-}
-
-.leftdiv-lg{     
-    width:520px;
-    height:538px;
-}
-
-.leftdiv-xl{
-    width:720px;
-    height:738px;
-}
-
-.box1 {
-    height:711px;
-    width:729px;
-    margin:27px 0;
-    position: absolute;
-    border:4px solid #D4C06A;
-}
-
-.box1-lg {
-    height:511px;
-    width:529px;
-}
-
-.box1-xl {
-    height:711px;
-    width:729px;
-}
-
-.box2 {
-    height:775px;
-    width:675px;
-    margin: 0 27px;
-    position: absolute;
-    border:4px solid #D4C06A;
-}
-
-.box2-lg {
-    height:575px;
-    width:475px;
-}
-
-.box2-xl {
-    height:775px;
-    width:675px;
-}
-
-.box-content {
-    height:738px;
-    width:702px;
-    margin:17.5px 0 0 17.5px;
-    overflow: hidden;
-    position: absolute;
-    background: #005daa; 
-    padding-top: 10px;
-}
-
-.box-content-lg {
-    height:538px;
-    width:502px;
-}
-
-.box-content-xl {
-    height:738px;
-    width:702px;
-}
-
-.box-content-img-lg {
-    max-width: 500px; 
-    max-height: 500px; 
-    width: 450px; 
-    height: 450px;
-}
-
-.box-content-img-xl {
-    max-width: 700px; 
-    max-height: 700px; 
-    width: 650px; 
-    height: 650px;
-}
-
-.student-name {
-    /* background-color: white; */
-    /* border: 2px solid #D4C06A; */
+.student-name {    
     padding: 5px 20px 5px 20px;
-    /* border-top-left-radius: 20px; */
-    /* border-bottom-left-radius: 40px; */
-    /* border-bottom-right-radius: 40px; */
-    /* border-bottom-color: slategray; */
-    /* border-bottom-width: 10px; */
-    /* border-top-style: dotted; */
-}
-
-.effect3d {
-    animation-name: effect3d;
-    animation-duration: 1s;
-    animation-fill-mode: both;    
-    animation-iteration-count: infinite;
-}
-
-@keyframes effect3d {
-    to {
-        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
-        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
-        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
-        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-        0 20px 20px rgba(0, 0, 0, 0.15);
-    }
 }

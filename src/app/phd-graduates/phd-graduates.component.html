@@ -1,16 +1,16 @@
 <div fxLayout="column" style="height: 100%; border: 0px solid red;" 
         fxLayoutGap="50px" 
         fxLayoutAlign="center center">
-    <div fxFlex=2>&nbsp;</div>
+    <!-- <div fxFlex=2>&nbsp;</div> -->
     <div fxFlex=23 fxLayout fxLayoutAlign="center center" style="border: 0px solid yellow; width: 100%;"> 
-        <mat-card style="padding-bottom: 10px;">
-            <div fxFlex="25" style="border: 0px solid red;">
+        <mat-card style="background-color: #005daa; margin-top: 10px; padding-bottom: 10px; width: 90%; border: 0px red  solid;">
+            <div fxFlex="18" style="border: 0px solid black;">
                 <div fxLayout>                           
                     <div fxFlex fxLayout="column" fxLayoutAlign="center center">
                       <div fxFlex style="margin-right: -41px; margin-top: -11px; z-index: 10;">
                         <img src="assets/images/ghat_2.png" 
                               style="width: 121px; height: 80px; opacity: 0.8;"
-                              [ngStyle.lg]="'width: 120px; height: 80px;'" 
+                              [ngStyle.lg]="'width: 80px; height: 40px;'" 
                               [ngStyle.xl]="'width: 120px; height: 80px;'" />
                       </div>
                       <div fxFlex style="margin-right: -20px; margin-top: -20px;"
@@ -21,7 +21,7 @@
                     </div>
                     <div fxFlex fxLayoutAlign="center center">
                       <img src="assets/logo/logo.png" 
-                            style="width: 150px; height: 150px;" 
+                            style="width: 120px; height: 120px;" 
                             [ngStyle.xl]="'width: 150px; height: 150px;'" >
                     </div>
                     <div fxFlex fxLayoutAlign="center center">
@@ -29,18 +29,17 @@
                             [ngStyle.xl]="'font-size: 3rem;'">&#x2666;</h1> -->
                     </div>
                 </div>
-            </div>
-            <div fxFlex=5>&nbsp;</div>
-            <div fxFlex fxLayout="column" fxLayoutAlign="center center" style="border: 0px red  solid;">
+            </div>            
+            <div fxFlex fxLayout="column" style="border: 0px solid black;">
                 <div fxFlex=50 style="border: 0px solid green;">
                     <h1 [@topBottom]="collegeName"
-                            style="font-size: 50px; font-family: 'Baloo Da 2', cursive; line-height: 100%; text-align: center;"
-                            [ngStyle.xl]="'font-size: 2.5rem;'" class="effect3d">{{ collegeName | uppercase }}</h1>
+                            style="font-size: 30px; font-family: 'Baloo Da 2', cursive; line-height: 100%; color: #D4C06A;"
+                            [ngStyle.xl]="'font-size: 2.5rem;'">{{ collegeName | uppercase }}</h1>
                 </div>
                 <div fxFlex=5>&nbsp;</div>
                 <div fxFlex=40 style="border: 0px solid green;">
                     <h2 [@topBottom]="program"
-                            style="font-size: 40px; font-family: 'Rowdies', cursive; line-height: 150%; text-align: center;"
+                            style="font-size: 20px; font-family: 'Rowdies', cursive; line-height: 150%; color: #D4C06A;"
                             [ngStyle.xl]="'font-size: 1.6rem;'">{{ program }}</h2>
                 </div>
             </div>
@@ -50,54 +49,7 @@
             fxLayout
             fxLayoutGap="20px"            
             style="width: 100%; border: 0px solid yellow;">
-        <div fxFlex fxLayoutAlign="center center" style="border: 0px solid black;">
-            <!-- <div class="leftdiv" 
-                  [ngClass.lg]="'leftdiv-lg'"  [ngClass.xl]="'leftdiv-xl'">
-                <div class="box-content" 
-                      [ngClass.lg]="'box-content-lg'"  [ngClass.xl]="'box-content-xl'">
-                    <img [@leftRight]="image" src="{{image}}" alt="image" 
-                          [ngClass.xl]="'box-content-img-xl'" [ngClass.lg]="'box-content-img-lg'">
-                </div>
-                <div class="box1" [ngClass.lg]="'box1-lg'"  [ngClass.xl]="'box1-xl'"></div>
-                
-                <div class="box2" [ngClass.lg]="'box2-lg'"  [ngClass.xl]="'box2-xl'"></div>
-            </div> -->
-            <!-- <div style="position: absolute; background: #005daa;"
-                    [ngStyle.md]="'height: 480px; width: 430px;'"
-                    [ngStyle.lg]="'height: 530px; width: 480px;'"
-                    [ngStyle.xl]="'height: 580px; width: 530px;'">
-                <div fxLayout="column" 
-                        fxLayoutAlign="center center"                        
-                        style="margin: 20px;"
-                        [ngStyle.md]="'height: 440px;'"
-                        [ngStyle.lg]="'height: 490px;'"
-                        [ngStyle.xl]="'height: 540px;'">
-                    <div fxFlex=90 style="border: 0px solid red;">
-                        <img [@leftRight]="image" 
-                                src="{{image}}" 
-                                alt="PhD Graduate"
-                                [ngStyle.md]="'height: 390px; width: 350px;'"
-                                [ngStyle.lg]="'height: 430px; width: 400px;'"
-                                [ngStyle.xl]="'height: 480px; width: 400px;'" />
-                    </div>
-                    
-                    <div fxFlex=10>
-                        <div class="student-name">
-                            <h1 [@leftRight]="studentName" style="color: #D4C06A; font-family: 'Red Rose', cursive;">
-                              {{ studentName }}
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style="position: absolute; border: 4px solid #D4C06A;"
-                    [ngStyle.md]="'height: 450px; width: 450px;'"
-                    [ngStyle.lg]="'height: 500px; width: 500px;'"
-                    [ngStyle.xl]="'height: 550px; width: 550px;'"></div>
-            <div style="position: absolute; border: 4px solid #D4C06A;"
-                    [ngStyle.md]="'height: 500px; width: 400px;'"
-                    [ngStyle.lg]="'height: 550px; width: 450px;'"
-                    [ngStyle.xl]="'height: 600px; width: 500px;'"></div> -->
+        <div fxFlex fxLayoutAlign="center center" style="border: 0px solid black;">            
             <div style="position: absolute; background: #005daa;"
                     [ngStyle.md]="'height: 450px; width: 360px;'"
                     [ngStyle.lg]="'height: 480px; width: 430px;'"
@@ -137,20 +89,20 @@
                     [ngStyle.xl]="'height: 550px; width: 450px;'"></div>         
         </div>
         <div fxFlex fxLayoutAlign="center center" style="border: 0px solid black;">
-            <mat-card style="background-color: #005daa;">
+            <mat-card style="background-color: #005daa; width: 70%; min-height: 50%;">
                 <div fxLayout="column" 
                         fxLayoutAlign="center start"
                         fxLayoutGap="20px"
                         style="height: 100%; border: 0px solid red;">
                     <div fxFlex style="border: 0px solid yellow;">
-                        <h2 [@topBottom]="thesisTitle" style="color: #D4C06A; font-family: 'Rowdies', cursive; line-height: 200%; text-align: center;">
-                            Thesis Title: 
+                        <h2 [@topBottom]="thesisTitle" style="color: #D4C06A; font-family: 'Rowdies', cursive; line-height: 200%;">
+                            <span style="color: #ffffff">Thesis Title: </span>                            
                             {{ thesisTitle }}
                         </h2>
                     </div>
                     <div fxFlex style="border: 0px solid yellow;">
-                        <h2 [@leftRight]="advisorName" style="color: #D4C06A; font-family: 'Red Rose', cursive;">
-                            Supervisor:
+                        <h2 [@leftRight]="advisorName" style="color: #D4C06A; font-family: 'Red Rose', cursive;">                            
+                            <span style="color: #ffffff">Supervisor: </span>
                             {{ advisorName }}
                         </h2>
                     </div>
