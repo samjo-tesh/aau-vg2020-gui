@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'msc_students', component: MscStudentsComponent },
 
   { path: 'new', component: HomeNewComponent},
-  { path: 'new/phd_graduates', component: PhdGraduatesComponent },
+  { path: 'phd_graduates', component: PhdGraduatesComponent },
 ];
 
 @NgModule({
