@@ -1,0 +1,31 @@
+{
+    "MScs": [
+        {
+            "collegeName": "College of Natural Science",
+            "departments": [
+                {
+                    "departmentName": "Department of Computer Science",
+                    "distinctionStudent": 
+                    {
+                        "id": 1,
+                        "name": "Abebe Kebede",
+                        "gpa": "",
+                        "image": ""
+                    },
+                    "students": [
+                        {
+                            "id": 1,
+                            "name": "Muktar Jemal Kedir",
+                            "image": "../../assets/images/phds/muktar_jemal.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Getnet Abie Mekonnen",
+                            "image": "../../assets/images/phds/getnet_abie.jpg"
+                        }
+                    ]
+                }
+            ]            
+        }
+    ]
+}

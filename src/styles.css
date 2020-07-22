@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* html { 
+    height: 100%;
+    padding: 20px;
+}
+body { 
+    height: 100%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-image: url('../src/assets/images/final_BG.png');
+} */
+
+/* ============ NEW ===================== */
+
+html { 
+    height: 100%;    
+}
+body { 
+    height: 95%;
+    margin-top: 20px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-image: url('src/assets/images/final_BG.png');
+}
+
+
+

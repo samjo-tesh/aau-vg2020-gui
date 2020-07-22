@@ -1,0 +1,96 @@
+<div style="margin: 20px 60px 20px 60px; height: 100%;">
+  <div fxLayout style="height: 100%;" 
+        fxLayout.lt-lg="column" 
+        fxLayoutGap="30px"
+        fxLayoutAlign="center center">
+    <div fxFlex="60" fxFlex.lt-lg>
+        <div fxLayout="column" style="height: 100%;">
+          <div fxFlex fxLayoutAlign="center center">
+            <div class="leftdiv" 
+                  [ngClass.lg]="'leftdiv-lg'"  [ngClass.xl]="'leftdiv-xl'">
+                <div class="box-content" 
+                      [ngClass.lg]="'box-content-lg'"  [ngClass.xl]="'box-content-xl'">
+                    <img [@leftRight]="image" src="{{image}}" alt="image" 
+                          [ngClass.xl]="'box-content-img-xl'" [ngClass.lg]="'box-content-img-lg'">
+                </div>
+                <div class="box1" [ngClass.lg]="'box1-lg'"  [ngClass.xl]="'box1-xl'"></div>
+                
+                <div class="box2" [ngClass.lg]="'box2-lg'"  [ngClass.xl]="'box2-xl'"></div>
+            </div>           
+          </div>
+          <div fxFlex fxLayoutAlign="center">
+            <!-- style="margin-top: -150px; z-index: 10;"> -->
+            <div class="student-name">
+              <h1 [@leftRight]="studentName">
+                {{ studentName | uppercase }}
+              </h1>
+            </div>
+          </div>        
+        </div>
+    </div>
+    <div fxFlex="40" fxFlex.lt-lg fxLayoutAlign="center center">
+      <mat-card style="background-color: #005daa; height: 70%; width: 100%;">
+        <div fxLayout="column" style="height: 100%;">
+          <div fxFlex="5">&nbsp;</div> 
+          <div fxFlex="20" fxLayoutAlign="center">
+            <div fxLayou>                           
+              <div fxFlex fxLayout="column" fxLayoutAlign="center center">
+                <div fxFlex style="margin-right: -40px; margin-top: -10px; z-index: 10;">
+                  <img src="assets/images/ghat_2.png" 
+                        style="width: 120px; height: 80px; opacity: 0.8;"
+                        [ngStyle.lg]="'width: 120px; height: 80px;'" 
+                        [ngStyle.xl]="'width: 200px; height: 160px;'" />
+                </div>
+                <div fxFlex style="margin-right: -20px; margin-top: -20px;"
+                              [ngStyle.xl]="'margin-right: -50px; margin-top: -30px;'">
+                  <h1 style="padding-right:10px;font-size: 2rem;" 
+                        [ngStyle.xl]="'font-size: 3rem;'">&#x2666;</h1>
+                </div>                
+              </div>
+              <div fxFlex fxLayoutAlign="center center">
+                <img src="assets/images/logo_3.png" 
+                      style="width: 150px; height: 170px;" 
+                      [ngStyle.xl]="'width: 250px; height: 270px;'" >
+              </div>
+              <div fxFlex fxLayoutAlign="center center">
+                <h1 style="padding-left:10px; margin:0px; font-size: 2rem;" 
+                      [ngStyle.xl]="'font-size: 3rem;'">&#x2666;</h1>
+              </div>
+            </div>            
+          </div>
+          <div fxFlex="10">&nbsp;</div>
+          <div fxFlex fxLayoutAlign="center" [ngStyle.xl]="'margin-bottom: 10px;'">
+            <h1 [@topBottom]="collegeName" 
+                  style="font-size: 30px;"
+                  [ngStyle.xl]="'font-size: 2.5rem;'">{{ collegeName | uppercase }}</h1>
+          </div>        
+          <div fxFlex fxLayoutAlign="center" [ngStyle.xl]="'margin-bottom: 10px;'">
+            <h2 [@leftRight]="departmentName" 
+                  style="font-size: 20px;"
+                  [ngStyle.xl]="'font-size: 1.8rem;'">{{ departmentName | uppercase }}</h2>
+          </div>
+          <div fxFlex fxLayoutAlign="center" [ngStyle.xl]="'margin-bottom: 10px;'">
+            <h2 [@topBottom]="program" 
+                  style="font-size: 20px;"
+                  [ngStyle.xl]="'font-size: 1.6rem;'">{{ program | uppercase }}</h2>
+          </div>
+          <div fxFlex fxLayoutAlign="center" [ngStyle.xl]="'margin-bottom: 10px;'">
+            <h2 [@leftRight]="fieldOfStudy" 
+                  style="font-size: 18px;"
+                  [ngStyle.xl]="'font-size: 1.5rem;'">{{ fieldOfStudy | uppercase }}</h2>
+          </div>
+          <div fxFlex [ngStyle.xl]="'margin-bottom: 10px;'">
+            <h2 [@topBottom]="thesisTitle">{{ thesisTitle | uppercase }}</h2>
+          </div>
+          <div fxFlex>
+            <h2 [@leftRight]="advisorName">{{ advisorName | uppercase }}</h2>
+          </div>
+          <div fxFlex="20">&nbsp;</div>
+          <div fxFlex fxLayoutAlign="center">
+            <h1>2019/2020</h1>
+          </div>
+        </div> 
+      </mat-card>
+    </div>
+  </div> 
+</div>

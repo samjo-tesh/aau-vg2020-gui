@@ -1,0 +1,40 @@
+h1 {
+    color: #D4C06A;    
+}
+
+h2 {
+    color: rgb(251, 216, 132);
+    /* color: #ffffff; */
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,1), 
+                0 1px 1px 0 rgba(0,0,0,1), 
+                0 1px 3px 0 rgba(0,0,0,1);
+} 
+
+#leftdiv{
+    margin:50px 150px 100px 150px; width:720px;height:738px;
+}
+
+#box1{
+    height:711px;width:729px;margin:27px 0;
+}
+#box2{
+    height:765px;width:675px;margin: 0 27px;
+}
+
+#box-content{
+    height:738px;width:702px;margin:17.5px 0 0 17.5px;overflow: hidden;
+}
+
+#rightdiv_content{
+    width:600px;padding:0px 0px 0px 0px;font-size: x-large;
+}
+#university_descr{
+    height:400px;width:600px;text-align: center;
+}
+
+#image{
+    width:702px;
+}

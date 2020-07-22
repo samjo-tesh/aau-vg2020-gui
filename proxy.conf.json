@@ -1,0 +1,10 @@
+{
+    "/phds": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+    "/mscs": {
+        "target": "http://localhost:3000",
+        "secure": false
+    }
+}

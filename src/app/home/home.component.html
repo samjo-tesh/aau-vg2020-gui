@@ -1,0 +1,44 @@
+<div style="margin: 20px 60px 20px 60px; height: 100%;">
+    <div fxLayout="column" style="height: 100%;" fxLayoutAlign="center center">
+        <div fxFlex="55" fxFlex.xl="70" fxLayout="column" fxLayoutAlign="center center">            
+            <div fxFlex>
+                <img class="logo_one" [ngClass.xl]="'logo_one_xl'" src="assets/images/logo.png">
+            </div>
+            <div fxFlex style="margin-top: -80px;" [ngStyle.xl]="'margin-top: -120px;'">
+                <img class="logo_two" [ngClass.xl]="'logo_two_xl'" src="assets/images/logo_3.png">
+            </div>
+            <div fxFlex="15">&nbsp;</div>
+            <div fxFlex>
+                <h1 style="font-size: 40px;" [ngStyle.xl]="'font-size: 50px;'" class="effect3d">2019/2020 Virtual Graduation Ceremony</h1>
+            </div>
+            <div fxFlex="10">&nbsp;</div>
+            <div fxFlex>
+                <h2 [ngStyle.xl]="'font-size: xx-large;'"  class="effect3d">July 25, 2020</h2>
+            </div>
+        </div>
+        <div fxFlex="5">&nbsp;</div>
+        <div fxFlex="5" fxFlex.xl="10">
+            <div fxLayout fxLayoutGap="50px">
+                <div fxFlex fxLayoutAlign="end">
+                    <button mat-raised-button color="primary" (click)="openPages('PhD');"
+                            [ngStyle.xl]="'padding: 20px;'">
+                        <span [ngStyle.xl]="'font-size: 30px;'">PhD Students</span>
+                    </button>
+                </div>
+                <div fxFlex fxLayoutAlign="center">
+                    <button mat-raised-button color="primary" (click)="openPages('MSc');"
+                            [ngStyle.xl]="'padding: 20px;'">
+                        <span [ngStyle.xl]="'font-size: 30px;'">MSc Students</span>
+                    </button>
+                </div>
+                <div fxFlex>
+                    <button mat-raised-button color="primary" (click)="openPages('BSc');"
+                            [ngStyle.xl]="'padding: 20px;'">
+                        <span [ngStyle.xl]="'font-size: 30px;'">BSc Students</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div fxFlex="30" fxFlex.xl="10">&nbsp;</div>
+    </div>
+</div>
