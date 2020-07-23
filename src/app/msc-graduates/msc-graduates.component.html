@@ -1,1 +1,498 @@
-<p>msc-graduates works!</p>
+<!-- <div fxLayout="column" style="height: 100%; border: 0px solid red;" 
+        fxLayoutGap="20px" 
+        fxLayoutAlign="center center">
+    <div fxFlex=23 fxLayout fxLayoutAlign="center center" style="border: 0px solid yellow; width: 100%;"> 
+        <mat-card style="background-color: #005daa; padding-bottom: 10px; width: 90%; border: 0px red  solid;">
+            <div fxFlex="18" style="border: 0px solid black;">
+                <div fxLayout>                           
+                    <div fxFlex fxLayout="column" fxLayoutAlign="center center">
+                        <div fxFlex style="margin-right: -41px; margin-top: -11px; z-index: 10;">
+                        <img src="assets/images/ghat_2.png" 
+                                style="width: 121px; height: 80px; opacity: 0.8;"
+                                [ngStyle.lg]="'width: 80px; height: 40px;'" 
+                                [ngStyle.xl]="'width: 120px; height: 80px;'" />
+                        </div>
+                        <div fxFlex style="margin-right: -20px; margin-top: -20px;"
+                                    [ngStyle.xl]="'margin-right: -50px; margin-top: -30px;'">                        
+                        </div>
+                    </div>
+                    <div fxFlex fxLayoutAlign="center center">
+                        <img src="assets/logo/logo.png" 
+                            style="width: 120px; height: 120px;" 
+                            [ngStyle.xl]="'width: 150px; height: 150px;'" >
+                    </div>
+                    <div fxFlex fxLayoutAlign="center center">                     
+                    </div>
+                </div>
+            </div>            
+            <div fxFlex fxLayout="column" style="border: 0px solid black;">
+                <div fxFlex=50 style="border: 0px solid green;">
+                    <h1 [@topBottom]="collegeName"
+                            style="font-size: 30px; font-family: 'Baloo Da 2', cursive; line-height: 100%; color: #D4C06A;"
+                            [ngStyle.xl]="'font-size: 2.5rem;'">{{ collegeName | uppercase }}</h1>
+                </div>
+                <div fxFlex=5>&nbsp;</div>
+                <div fxFlex=40 style="border: 0px solid green;">
+                    <h2 [@topBottom]="departmentName"
+                            style="font-size: 20px; font-family: 'Rowdies', cursive; line-height: 150%; color: #D4C06A;"
+                            [ngStyle.xl]="'font-size: 1.6rem;'">{{ departmentName }}</h2>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+    <div fxFlex=77 
+            fxLayout
+            fxLayoutGap="20px"            
+            style="width: 100%; border: 0px solid yellow;">
+        <div fxFlex fxLayout="column" fxLayoutGap="20px">
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid red;">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 265px; width: 265px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            style="margin-top: 10px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 270px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 style="border: 0px solid red; ">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 220px; width: 200px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20>
+                            <div class="student-name">
+                                <h2 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                {{ studentName }}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 250px; width: 270px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 270px; width: 250px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid red;">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 265px; width: 265px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            style="margin-top: 10px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 270px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 style="border: 0px solid red; ">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 220px; width: 200px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20>
+                            <div class="student-name">
+                                <h2 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                {{ studentName }}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 250px; width: 270px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 270px; width: 250px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+        </div>
+        <div fxFlex fxLayout="column" fxLayoutGap="20px">
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid red;">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 265px; width: 265px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            style="margin-top: 10px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 270px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 style="border: 0px solid red; ">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 220px; width: 200px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20>
+                            <div class="student-name">
+                                <h2 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                {{ studentName }}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 250px; width: 270px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 270px; width: 250px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid red;">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 265px; width: 265px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            style="margin-top: 10px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 270px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 style="border: 0px solid red; ">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 220px; width: 200px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20>
+                            <div class="student-name">
+                                <h2 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                {{ studentName }}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 250px; width: 270px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 270px; width: 250px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div fxLayout style="height: 100%; border: 0px solid red;" 
+        fxLayoutGap="20px" 
+        fxLayoutAlign="center center">
+    <div fxFlex=23 fxLayoutAlign="center center" style="border: 0px solid black; height: 100%;"> 
+        <mat-card fxLayout="column" fxLayoutGap="20px" style="background-color: #005daa; padding-bottom: 10px; height: 70%; border: 0px red  solid;">
+            <div fxFlex="25" style="border: 0px solid black;">
+                <div fxLayout>                           
+                    <div fxFlex fxLayout="column" fxLayoutAlign="center center">
+                        <div fxFlex style="margin-right: -41px; margin-top: -11px; z-index: 10;">
+                        <img src="assets/images/ghat_2.png" 
+                                style="width: 121px; height: 80px; opacity: 0.8;"
+                                [ngStyle.lg]="'width: 80px; height: 40px;'" 
+                                [ngStyle.xl]="'width: 120px; height: 80px;'" />
+                        </div>
+                        <div fxFlex style="margin-right: -20px; margin-top: -20px;"
+                                    [ngStyle.xl]="'margin-right: -50px; margin-top: -30px;'">                        
+                        </div>
+                    </div>
+                    <div fxFlex fxLayoutAlign="center center">
+                        <img src="assets/logo/logo.png" 
+                            style="width: 120px; height: 120px;" 
+                            [ngStyle.xl]="'width: 150px; height: 150px;'" >
+                    </div>
+                    <div fxFlex fxLayoutAlign="center center">                     
+                    </div>
+                </div>
+            </div>            
+            <div fxFlex fxLayout="column" style="border: 0px solid black;">
+                <div fxFlex=50 style="border: 0px solid green;">
+                    <h1 [@topBottom]="collegeName"
+                            style="font-size: 30px; font-family: 'Baloo Da 2', cursive; line-height: 100%; color: #D4C06A;"
+                            [ngStyle.xl]="'font-size: 2.5rem;'">{{ collegeName | uppercase }}</h1>
+                </div>
+                <div fxFlex=5>&nbsp;</div>
+                <div fxFlex=40 style="border: 0px solid green;">
+                    <h2 [@topBottom]="departmentName"
+                            style="font-size: 20px; font-family: 'Rowdies', cursive; line-height: 150%; color: #D4C06A;"
+                            [ngStyle.xl]="'font-size: 1.6rem;'">{{ departmentName }}</h2>
+                </div>
+                <div fxFlex=40 style="border: 0px solid green;">
+                    <h2 [@topBottom]="program"
+                            style="font-size: 20px; font-family: 'Rowdies', cursive; line-height: 150%; color: #D4C06A;"
+                            [ngStyle.xl]="'font-size: 1.6rem;'">{{ program }}</h2>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+    <div fxFlex=77
+            fxLayout="column"
+            fxLayoutGap="20px"                      
+            style="height: 100%; border: 0px solid red;">        
+        <div fxFlex fxLayout fxLayoutGap="20px">
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid black;"  *ngIf="topLeft">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 320px; width: 320px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            fxLayoutGap="10px"
+                            style="margin-top: 20px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 300px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 *ngIf="image[0] != 'No Data'">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 *ngIf="image[0] == 'No Data' && gender[0] == 'F'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/female.png"
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 *ngIf="image[0] == 'No Data' && gender[0] == 'M'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/male_2.png" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20>
+                            <div class="student-name">
+                                <h2 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                    {{ studentName[0] }}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 300px; width: 325px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 325px; width: 300px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid black;"  *ngIf="topRight">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 320px; width: 320px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            fxLayoutGap="10px"
+                            style="margin-top: 20px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 300px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 *ngIf="image[0] != 'No Data'">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 *ngIf="image[0] == 'No Data' && gender[0] == 'F'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/female.png"
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 *ngIf="image[0] == 'No Data' && gender[0] == 'M'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/male_2.png" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20>
+                            <div class="student-name">
+                                <h2 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                    {{ studentName[1] }}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 300px; width: 325px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 325px; width: 300px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+        </div>
+        <div fxFlex fxLayout fxLayoutGap="20px">
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid black;"  *ngIf="bottomLeft">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 320px; width: 320px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            fxLayoutGap="10px"
+                            style="margin-top: 20px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 300px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 *ngIf="image[0] != 'No Data'">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 *ngIf="image[0] == 'No Data' && gender[0] == 'F'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/female.png"
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 style="border: 0px solid red;" *ngIf="image[0] == 'No Data' && gender[0] == 'M'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/male_2.png" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20 style="border: 0px solid red;">
+                            <div class="student-name">
+                                <h3 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                    {{ studentName[2] }}
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 300px; width: 325px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 325px; width: 300px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+            <div fxFlex fxLayoutAlign="center center" style="border: 0px solid black;"  *ngIf="bottomRight">
+                <div style="position: absolute; background: #005daa;"
+                        [ngStyle.md]="'height: 450px; width: 360px;'"
+                        [ngStyle.lg]="'height: 320px; width: 320px;'"
+                        [ngStyle.xl]="'height: 530px; width: 460px;'">
+                    <div fxLayout="column" 
+                            fxLayoutAlign="center center"
+                            fxLayoutGap="10px"
+                            style="margin-top: 20px;"
+                            [ngStyle.md]="'height: 390px;'"
+                            [ngStyle.lg]="'height: 300px;'"
+                            [ngStyle.xl]="'height: 490px;'">
+                        <div fxFlex=80 *ngIf="image[0] != 'No Data'">
+                            <img [@leftRight]="image" 
+                                    src="{{image}}" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 *ngIf="image[0] == 'No Data' && gender[0] == 'F'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/female.png"
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+
+                        <div fxFlex=80 *ngIf="image[0] == 'No Data' && gender[0] == 'M'">
+                            <img [@leftRight]="image" 
+                                    src="assets/images/avator/male_2.png" 
+                                    alt="MSc Graduate"
+                                    [ngStyle.md]="'height: 340px; width: 300px;'"
+                                    [ngStyle.lg]="'height: 250px; width: 230px;'"
+                                    [ngStyle.xl]="'height: 450px; width: 350px;'" />
+                        </div>
+                        
+                        <div fxFlex=20>
+                            <div class="student-name">
+                                <h2 [@topBottom]="studentName" 
+                                        style="color: #D4C06A; font-family: 'Red Rose', cursive;">
+                                    {{ studentName[3] }}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 400px; width: 400px;'"
+                        [ngStyle.lg]="'height: 300px; width: 325px;'"
+                        [ngStyle.xl]="'height: 500px; width: 500px;'"></div>
+                <div style="position: absolute; border: 4px solid #D4C06A;"
+                        [ngStyle.md]="'height: 450px; width: 350px;'"
+                        [ngStyle.lg]="'height: 325px; width: 300px;'"
+                        [ngStyle.xl]="'height: 550px; width: 450px;'"></div>
+            </div>
+        </div>
+    </div>
+</div>
