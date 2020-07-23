@@ -1,34 +1,4 @@
 {
-    "MScs": [
-        {
-            "collegeName": "College of Natural Science",
-            "departments": [
-                {
-                    "departmentName": "Department of Computer Science",
-                    "distinctionStudent": 
-                    {
-                        "id": 1,
-                        "name": "Abebe Kebede",
-                        "gpa": "",
-                        "image": ""
-                    },
-                    "students": [
-                        {
-                            "id": 1,
-                            "name": "Muktar Jemal Kedir",
-                            "image": "../../assets/images/phds/muktar_jemal.jpg"
-                        },
-                        {
-                            "id": 2,
-                            "name": "Getnet Abie Mekonnen",
-                            "image": "../../assets/images/phds/getnet_abie.jpg"
-                        }
-                    ]
-                }
-            ]            
-        }
-    ]
-,
     "PhDs": [
         {
             "collegeName": "College of Development Studies",
@@ -127,6 +97,173 @@
                             "thesisTitle": "Thesis Title - Earth Science 2",
                             "image": "assets/images/ghat_3.png",
                             "advisorName": "Advisor Name 4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+,
+    "MScs": [
+        {
+            "collegeName": "COLLEGE OF HUMANITIES, LANGUAGE STUDIES, JOURNALISM & COMMUNICATIONS",
+            "departments": [
+                {
+                    "departmentName": "Master of Arts in Ethiopian Literature & Folklore",
+                    "program": "Extension",
+                    "students": [
+                        {
+                            "id": 1,
+                            "name": "Etsegenet Mehretie Beyene",
+                            "gender": "F",
+                            "image": "assets/images/msc/CHLJC/Extension/Etsegenet_Mehretie_Beyene.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Mihiret Habte Weldemariyam",
+                            "gender": "F",
+                            "image": "assets/images/msc/CHLJC/Extension/Mihiret_Habte_Weldemariyam.jpg"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Nardos Tesfaye Talle",
+                            "gender": "F",
+                            "image": "assets/images/msc/CHLJC/Extension/Nardos_Tesfaye_Talle.jpg"
+                        }
+                    ]
+                },
+                {
+                    "departmentName": "Master of Arts in Documentary Linguistics and Culture",
+                    "program": "Extension",
+                    "students": [
+                        {
+                            "id": 1,
+                            "name": "Seblewongel Assefa Bekele",
+                            "gender": "F",
+                            "image": "assets/images/msc/CHLJC/Extension/Seblewongel_Assefa_Bekele.jpg"
+                        }
+                    ]                
+                }
+            ]            
+        },
+        {
+            "collegeName": "COLLEGE OF SOCIAL SCIENCES",
+            "departments": [
+                {
+                    "departmentName": "Master of Arts in Geography & Environmental Studies (Specialization in Urban & Regional Development & Planning)",
+                    "program": "Extension",
+                    "students": [
+                        {
+                            "id": 1,
+                            "name": "Alemisa Bekele Enjigu",
+                            "gender": "M",
+                            "image": "assets/images/msc/CSS/Extension/Alemisa_Bekele_Enjigu.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Kassa Yimam Yisuf",
+                            "gender": "M",
+                            "image": "assets/images/msc/CSS/Extension/Kassa_Yimam_Yisuf.jpg"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Teklay Zeslasse Hailemariam",
+                            "gender": "M",
+                            "image": "assets/images/msc/CSS/Extension/Teklay_Zeslasse_Hailemariam.jpg"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Temesgen Getachew Haile",
+                            "gender": "M",
+                            "image": "assets/images/msc/CSS/Extension/Temesgen_Getachew_Haile.jpg"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Wondwosen Endale Ashagari",
+                            "gender": "M",
+                            "image": "assets/images/msc/CSS/Extension/Wondwosen_Endale_Ashagari.jpg"
+                        }
+                    ]
+                }
+            ]        
+        },
+        {
+            "collegeName": "COLLEGE OF EDUCATION & BEHAVIORAL STUDIES",
+            "departments": [
+                {
+                    "departmentName": "Master of Arts in Curriculum and Instruction",
+                    "program": "Regular",
+                    "students": [
+                        {
+                            "id": 1,
+                            "name": "Abiti Ensebo Harefo",
+                            "gender": "M",
+                            "image": "assets/images/msc/CEBS/Regular/Abiti_Ensebo_Harefo.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Berhanu Kelbiso Mekebo",
+                            "gender": "M",
+                            "image": "assets/images/msc/CEBS/Regular/Berhanu_Kelbiso_Mekebo.jpg"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Gebreanenia Gebremariam Tekelehaimanot",
+                            "gender": "M",
+                            "image": "assets/images/msc/CEBS/Regular/Gebreanenia_Gebremariam_Tekelehaimanot.jpg"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Ojulu Gora Agwa",
+                            "gender": "M",
+                            "image": "assets/images/msc/CEBS/Regular/Ojulu_Gora_Agwa.jpg"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Samuel Mitiku Kassaye",
+                            "gender": "M",
+                            "image": "assets/images/msc/CEBS/Regular/Samuel_Mitiku_Kassaye.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "collegeName": "ETHIOPIAN INSTITUTE OF ARCHITECTURE, BUILDING, CONSTRUCTION & CITY DEVELOPMENT",
+            "departments": [
+                {
+                    "departmentName": "Master of Science in Advanced Architectural Designs",
+                    "program": "Regular",
+                    "students": [
+                        {
+                            "id": 1,
+                            "name": "Kalkidan Debela Fressa",
+                            "gender": "F",
+                            "image": "assets/images/msc/EIABC/Regular/Kalkidan_Debela_Fressa.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Kebede Adera Legesse",
+                            "gender": "M",
+                            "image": "assets/images/msc/EIABC/Regular/Kebede_Adera_Legesse.jpg"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Tiruye Mesfin Mengistu",
+                            "gender": "F",
+                            "image": "assets/images/msc/EIABC/Regular/Tiruye_Mesfin_Mengistu.jpg"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Yohannes Afework Wondeafrash",
+                            "gender": "M",
+                            "image": "assets/images/msc/EIABC/Regular/Yohannes_Afework_Wondeafrash.jpg"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Yohannes Kassa Hailemariyam",
+                            "gender": "M",
+                            "image": "assets/images/msc/EIABC/Regular/Yohannes_Kassa_Hailemariyam.jpg"
                         }
                     ]
                 }
